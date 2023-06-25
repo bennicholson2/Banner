@@ -1,0 +1,102 @@
+body {
+    margin:0px;
+    padding:0px;
+    height: 500px;
+    width:1500px;
+    display:flex;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: .2rem;
+    background-color: rgb(220, 220, 220);
+}
+
+#left {
+    display:flex;
+    flex-direction:column;
+    flex-basis:42%;
+    padding-top: 25px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#left h1 {
+    font-weight: 1000;
+}
+
+#left ul li {
+    list-style-type: none;
+    text-align: center;
+    margin:10px
+}
+
+#middle {
+    flex-basis:16%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#middle img {
+    height:28%;
+    width:65%;
+}
+
+#middle #python {
+    height:35%
+}
+
+#right {
+    flex-basis:42%;
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis:40%;
+    font-size: 2rem;
+}
+
+#name h1 {
+    margin-top: 25px;
+    margin-bottom: -45px;
+    font-weight: 1500;
+}
+
+#name #last {
+    margin-top: 40px;
+}
+
+#social {
+    display:flex;
+    flex-basis:70%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#social img {
+    width:12%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+#social p {
+    margin-left: 25px;
+    font-size:1.5rem
+}
+
+#twitter img {
+    width: 6.5em;
+    height:4em;
+    margin-left:112px
+}
+.social-name {
+    display:flex;
+    align-items: center;
+}
